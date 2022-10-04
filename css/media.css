@@ -1,0 +1,493 @@
+
+@media (max-width: 1262px) {
+    .banner__logo {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .banner__info {
+        padding: 136px 0 104px 0;
+    }
+
+    .info__logo {
+        margin-bottom: 37.61px;
+        width: 183.1px;
+        height: 74.85px;
+    }
+
+    h1 {
+        width: 454.36px;
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 41.49px;
+    }
+
+    .download-button {
+        width: 183.1px;
+        height: 50px;
+    }
+
+    .form-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .banner__form {
+        width: 398px;
+    }
+
+    .section-social {
+        padding: 14px 0;
+    }
+
+    .social__info-title {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .social__info-subtitle {
+        color: #86878B;
+        line-height: 16px;
+    }
+
+    .social__panel-item {
+        width: 64px;
+        height: 64px;
+    }
+
+    .social-facebook {
+        width: 28px;
+        height: 50px;
+    }
+
+    .social-twitter {
+        width: 52px;
+        height: 42px;
+    }
+
+    .social-linkedin {
+        width: 48px;
+        height: 48px;
+    }
+
+    .social-pinterest {
+        width: 53px;
+        height: 53px;
+    }
+
+    .social-instagram {
+        width: 48px;
+        height: 48px;
+    }
+
+    .social-github {
+        width: 53px;
+        height: 51px;
+    }
+
+    .social-rss {
+        width: 41px;
+        height: 41px;
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 52px;
+    }
+
+    .separator {
+        margin-bottom: 32px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 66px;
+    }
+
+    .awesome__info-icon {
+        margin-bottom: 67px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .item-lamp {
+        background-size: 56px;
+    }
+
+    .item-keyboard {
+        background-size: 57px 40px;
+    }
+
+    .item-lightnig {
+        background-size: 38px 57px;
+    }
+
+    .awesome__info-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .awesome__info-desc {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .section-pricing .subtitle {
+        margin-bottom: 50px;
+    }
+
+    .section-pricing {
+        padding-top: 78px;
+        padding-bottom: 39px;
+    }
+
+    .pricing__item-prices {
+        column-gap: 20px;
+    }
+
+    .section-pricing .pricing__item-prices-table td {
+        height: 44px;
+    }
+
+    .section-pricing .pricing__item-prices-table th {
+        height: 53px;
+    }
+
+    .section-pricing .pricing__item-prices-table .option-price th {
+        padding: 23px;
+    }
+
+    .section-reviews .reviews__items {
+        column-gap: 20px;
+    }
+
+    .review-customers-info h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .review-customers-info h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .section-stylish-design-banner {
+        height: 358px;
+    }
+
+    .section-stylish-design-banner .subtitle {
+        margin-bottom: 32px;
+    }
+
+    .section-stylish-design-banner .download-button {
+        width: 318px;
+    }
+
+    .feedback {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .feedback .subtitle {
+        margin-bottom: 72px;
+    }
+
+    .feedback__form {
+        column-gap: 20px;
+    }
+
+    .feedback__form-button button{
+        width: 318px;
+    }
+
+    .customer-position {
+        justify-content: space-evenly;
+    }
+
+    .review-customers-info .item-photo {
+        background-size: 63px;
+    }
+
+    .footer__social {
+        column-gap: 27px;
+    }
+}
+
+@media (max-width: 930px) {
+    .banner__nav {
+        display: none;
+    }
+
+    .hidden__menu {
+        display: block;
+    }
+
+    .banner__info {
+        padding: 100px 0 70px 0;
+    }
+
+    .banner__info .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info__logo {
+        align-self: center;
+    }
+
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner__info .separator {
+        margin-left: auto;
+    }
+
+    .banner__info .subtitle {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner__info .download-button {
+        align-self: center;
+        width: 288px;
+        margin-bottom: 56px;
+    }
+
+    .social__info-subtitle {
+        margin-bottom: 32px;
+    }
+
+    .section-social .wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social__panel {
+        width: 100%;
+    }
+
+    .pricing__item-prices {
+        column-gap: 10px;
+    }
+
+    .section-pricing .pricing__item-prices-table td {
+        height: 39px;
+    }
+
+    .section-pricing .pricing__item-prices-table th {
+        height: 47px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .section-pricing .pricing__item-prices-table .option-price th {
+        padding: 18px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .section-reviews {
+        padding-top: 78px;
+        padding-bottom: 39px;
+    }
+
+    .feedback {
+        padding-top: 78px;
+        padding-bottom: 39px;
+    }
+
+    .footer__social {
+        column-gap: 27px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .banner__info {
+        padding: 97px 0 60px 0;
+    }
+
+    .info__logo {
+        display: none;
+    }
+
+    .social__info-subtitle {
+        margin-bottom: 16px;
+    }
+
+    .form-title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .banner__form {
+        width: 348px;
+    }
+
+    .social__info {
+        width: 55%;
+    }
+
+    .social__panel-item {
+        width: 42px;
+        height: 42px;
+    }
+
+    .social-facebook {
+        width: 20px;
+        height: 38px;
+    }
+
+    .social-twitter {
+        width: 39px;
+        height: 31px;
+    }
+
+    .social-linkedin {
+        width: 36px;
+        height: 36px;
+    }
+
+    .social-pinterest {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-instagram {
+        width: 36px;
+        height: 36px;
+    }
+
+    .social-github {
+        width: 40px;
+        height: 38px;
+    }
+
+    .social-rss {
+        width: 31px;
+        height: 31px;
+    }
+
+    .pricing__item-prices {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 auto;
+        row-gap: 30px;
+        justify-content: center;
+    }
+
+    .pricing__item-prices-table {
+        width: calc(50% - 20px);
+    }
+
+    .centre-table {
+        top: 0;
+    }
+
+    .section-reviews .reviews__items{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        row-gap: 10px;
+    }
+
+    .section-stylish-design-banner .download-button {
+        width: 303px;
+    }
+
+    .footer__social {
+        column-gap: 17px;
+    }
+}
+
+@media (max-width: 565px) {
+    .social-facebook {
+        width: 11px;
+        height: 21px;
+    }
+
+    .social-twitter {
+        width: 21px;
+        height: 17px;
+    }
+
+    .social-linkedin {
+        width: 20px;
+        height: 20px;
+    }
+
+    .social-pinterest {
+        width: 23px;
+        height: 21px;
+    }
+
+    .social-instagram {
+        width: 20px;
+        height: 20px;
+    }
+
+    .social-github {
+        width: 21px;
+        height: 21px;
+    }
+
+    .social-rss {
+        width: 19px;
+        height: 19px;
+    }
+
+    .section-awesome .awesome__info {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .pricing__item-prices {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing__item-prices-table {
+        width: 80%;
+    }
+
+    .feedback__container {
+        grid-template-columns: 1fr;
+    }
+
+    .feedback__form-message {
+        grid-column-start: 1;
+        grid-row: 4 / 9;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .banner__info {
+        padding: 93px 0 50px 0;
+    }
+
+    .banner__form {
+        width: 288px;
+    }
+
+    .social__info-subtitle {
+        margin-bottom: 10px;
+    }
+
+    .section-stylish-design-banner .download-button {
+        width: 287px;
+    }
+}
