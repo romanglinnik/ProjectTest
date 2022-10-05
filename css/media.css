@@ -16,20 +16,20 @@
     }
 
     .info__logo {
-        margin-bottom: 37.61px;
-        width: 183.1px;
-        height: 74.85px;
+        margin-bottom: 37px;
+        width: 183px;
+        height: 74px;
     }
 
     h1 {
-        width: 454.36px;
+        width: 454px;
         font-size: 36px;
         line-height: 42px;
-        margin-bottom: 41.49px;
+        margin-bottom: 41px;
     }
 
     .download-button {
-        width: 183.1px;
+        width: 183px;
         height: 50px;
     }
 
@@ -278,7 +278,7 @@
 
     .banner__info .download-button {
         align-self: center;
-        width: 288px;
+        width: 358px;
         margin-bottom: 56px;
     }
 
@@ -495,6 +495,10 @@
 
     .banner__form {
         width: 348px;
+    }
+
+    .banner__info .download-button {        
+        width: 288px;       
     }
 
     .social-facebook {
