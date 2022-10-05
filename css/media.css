@@ -171,6 +171,11 @@
         padding: 23px;
     }
 
+    .section-reviews {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
     .section-reviews .subtitle {
         margin-bottom: 63px;
     }
@@ -206,8 +211,8 @@
     }
 
     .feedback {
-        padding-top: 100px;
-        padding-bottom: 50px;
+        padding-top: 80px;
+        padding-bottom: 40px;
     }
 
     .feedback .subtitle {
@@ -401,6 +406,10 @@
         margin-bottom: 22px;
     }
 
+    .subtitle {
+        margin-bottom: 50px;
+    }
+
     .section-awesome .awesome__info {
         flex-wrap: wrap;
         row-gap: 20px;
@@ -420,6 +429,10 @@
         margin-bottom: 20px;
     }
 
+    .section-pricing {
+        padding-top: 60px;
+    }
+
     .pricing__item-prices {
         flex-wrap: wrap;
         width: 100%;
@@ -434,6 +447,10 @@
 
     .centre-table {
         top: 0;
+    }
+
+    .section-reviews {
+        padding-top: 60px;
     }
 
     .section-reviews .subtitle {
@@ -465,6 +482,10 @@
         width: 303px;
     }
 
+    .feedback {
+        padding-top: 60px;
+    }
+
     .footer__social {
         column-gap: 17px;
     }
@@ -477,44 +498,52 @@
     }
 
     .social-facebook {
-        width: 11px;
-        height: 21px;
+        width: 21px;
+        height: 31px;
     }
 
     .social-twitter {
-        width: 21px;
-        height: 17px;
+        width: 31px;
+        height: 31px;
     }
 
     .social-linkedin {
-        width: 20px;
-        height: 20px;
+        width: 31px;
+        height: 31px;
     }
 
     .social-pinterest {
-        width: 23px;
-        height: 21px;
+        width: 31px;
+        height: 31px;
     }
 
     .social-instagram {
-        width: 20px;
-        height: 20px;
+        width: 31px;
+        height: 31px;
     }
 
     .social-github {
-        width: 21px;
-        height: 21px;
+        width: 31px;
+        height: 31px;
     }
 
     .social-rss {
-        width: 19px;
-        height: 19px;
+        width: 31px;
+        height: 31px;
     }
 
     .section-awesome .awesome__info {
         flex-direction: column;
         row-gap: 50px;
         align-items: center;
+    }
+
+    .awesome__info-column {
+        width: 80%;
+    }
+
+    .awesome__info-icon {
+        margin-bottom: 23px;
     }
 
     .pricing__item-prices {
@@ -546,7 +575,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
 
     .banner__info {
         padding: 93px 0 50px 0;
@@ -558,6 +587,41 @@
 
     .social__info-subtitle {
         margin-bottom: 10px;
+    }
+
+    .social-facebook {
+        width: 11px;
+        height: 21px;
+    }
+
+    .social-twitter {
+        width: 21px;
+        height: 21px;
+    }
+
+    .social-linkedin {
+        width: 21px;
+        height: 21px;
+    }
+
+    .social-pinterest {
+        width: 21px;
+        height: 21px;
+    }
+
+    .social-instagram {
+        width: 21px;
+        height: 21px;
+    }
+
+    .social-github {
+        width: 21px;
+        height: 21px;
+    }
+
+    .social-rss {
+        width: 21px;
+        height: 21px;
     }
 
     .section-stylish-design-banner .download-button {
