@@ -22,14 +22,9 @@ body {
 
 input, textarea {
     outline: none;
-    font-family: 'Open Sans';
-    font-weight: 400;
+    font-family: 'Raleway';
+    font-weight: 500;
     font-size: 18px;
-    line-height: 21px;
-}
-
-.form-element:focus {
-    border: 2px solid #000;
 }
 
 .section-banner {
@@ -131,12 +126,12 @@ input, textarea {
 }
 
 .burger__menu {
-    width: 24px;
-    height: 18px;
+    width: 30px;
+    height: 24px;
     position: relative;
     position: absolute;
     /* top: 50px; */
-    right: 50px;
+    right: 30px;
     transform: translateY(-50%);
     z-index: 4;
 }
@@ -279,18 +274,12 @@ h1 {
     border: 2px solid #FFFFFF;
 }
 
-.form-name {
-    padding: 0 50px;
-    margin-bottom: 33px;
-}
-
-.form-mail {
+.form-item {
     padding: 0 50px;
     margin-bottom: 33px;
 }
 
 .form-pass {
-    padding: 0 50px;
     margin-bottom: 75px;
 }
 
@@ -301,10 +290,14 @@ h1 {
 }
 
 .form-element {
-    
     border: none;
     border-bottom: 1px solid #BDBDBD;
     height: 38px;
+    padding-left: 5px;
+}
+
+.form-element:focus {
+    border: 2px solid #000;
 }
 
 input::placeholder, textarea::placeholder {
@@ -336,7 +329,7 @@ input::placeholder, textarea::placeholder {
     background: #AB4949;
     border-radius: 0px 0px 10px 10px;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .form-submit button:active {
@@ -438,6 +431,7 @@ input::placeholder, textarea::placeholder {
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .awesome__info-desc {
@@ -540,7 +534,7 @@ input::placeholder, textarea::placeholder {
     color: #86878B;
     background: #E2E2E2;
     border-radius: 10px;
-    padding: 38px 29px;
+    padding: 30px 20px;
     margin-bottom: 66px;
     position: relative; 
 }
@@ -639,6 +633,7 @@ input::placeholder, textarea::placeholder {
 .download-button:hover {
     color: #EC7979;
     border: 2px solid #EC7979;
+    transition: all 0.3s ease-out;
 }
 
 .download-button:active {
@@ -679,6 +674,7 @@ input::placeholder, textarea::placeholder {
     border-bottom: 1px solid #BDBDBD;
     width: 100%;
     height: 100%;
+    padding-top: 5px;
 }
 
 .feedback__form-message {
@@ -714,14 +710,11 @@ input::placeholder, textarea::placeholder {
 .feedback__form-button button:hover {
     background: #AB4949;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .feedback__form-button button:active {
     box-shadow: inset 0px 0px 10px #AB4949;
-}
-
-.feedback__form-button button:hover {
-    cursor: pointer;
 }
 
 /* END OF SECTION FEEDBACK */
